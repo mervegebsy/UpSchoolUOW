@@ -1,0 +1,19 @@
+﻿@model AccountViewModel
+@{
+    Layout = null;
+}
+
+<div class="container">
+    <br />
+    <form method="post">
+        <label>Göncerici ID</label>
+        <input type="text" asp-for="SenderID" class="form-control" />
+        <br />
+        <label>Alıcı ID</label>
+        <input type="text" asp-for="ReceiverID" class="form-control" />
+        <br />
+        <label>Göncerilecek Tutar</label>
+        <input type="text" asp-for="Amount" class="form-control" />
+        <br />
+    </form>
+</div>
